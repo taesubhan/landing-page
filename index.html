@@ -3,22 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>my website</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <div class="header">
-            <div class="logo">Header Logo</div>
-            <div class="header-link">header link one</div>
-            <div class="header-link">header link two</div>
-            <div class="header-link">header link three</div>
+            <div class="logo"><strong>Header Logo</strong></div>
+            <div class="header-links">
+                <div class="link">header link one</div>
+                <div class="link">header link two</div>
+                <div class="link">header link three</div>
+            </div>
         </div>
         <div class="first">
-            <div class="title">This website is awesome</div>
-            <div class="sub-context">This website has some context that goes here under the main title. 
-                It's a smaller font and the color is lower contrast</div>
-            <button>Sign Up</button>
-            <div class="img">
-            <!--Insert Image here-->
+            <div class="left">
+                <div class="title"><strong>This website is awesome</strong></div>
+                <div class="sub-context">This website has some context that goes here under the main title. 
+                    It's a smaller font and the color is lower contrast</div>
+                <button class="button-1"><strong>Sign up</strong></button>
+            </div>
+            <div class="home-img">
+                <img src="./images/home-page.jpg" alt="green landscape">
             </div>
         </div>
         <div class="second">
@@ -45,7 +50,7 @@
             </div>
         </div>
         <div class="footer">
-            Copyright C The Odin Project
+            Copyright (C) The Odin Project
         </div>
     </body>
 </html>
