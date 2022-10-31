@@ -10,15 +10,21 @@ body {
 .first {
     margin: 0;
     background-color: #1f2937;
+}
+
+.header-conatiner,
+.first-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .header {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 10px 150px;
+    padding: 10px 0;
 }
 
 .header-links,
@@ -28,7 +34,7 @@ body {
 }
 
 .first {
-    padding: 50px 150px;
+    padding: 50px 0px;
 }
 
 .left {
@@ -86,6 +92,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .block {
@@ -104,14 +111,21 @@ body {
     background-color: #E5E7Eb;
     font-size: 36px;
     color: #1F2937;
-    padding: 75px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    margin: 50px 0px;
+    width: 800px;
 }
 
 .author {
     text-align: right;
 }
 
-/* Fourth Section (Grey) */
+/* Fourth Section (White) */
 
 .container-box {
     height: 150px;
