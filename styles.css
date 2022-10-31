@@ -1,6 +1,7 @@
 body {
     color: black; /*placeholder*/
     font-family: Arial, sans-serif;
+    margin: 0px;
 }
 
 /* First Section (Blue) */
@@ -103,7 +104,7 @@ body {
     background-color: #E5E7Eb;
     font-size: 36px;
     color: #1F2937;
-    padding: 100px 300px;
+    padding: 75px 300px;
 }
 
 .author {
@@ -111,3 +112,50 @@ body {
 }
 
 /* Fourth Section (Grey) */
+
+.container-box {
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.call-to-action p {
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.first-call-text {
+    font-size: 25px;
+}
+
+.second-call-text {
+    font-size: 20px;
+}
+
+.button-2 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid 2px #F9FAF8;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+/* Fifth Section (Blue) */
+
+.footer {
+    background: #1f2937;
+    color: #F9FAF8;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
